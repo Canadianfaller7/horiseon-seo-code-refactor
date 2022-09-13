@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Element selector that sets the background color for the entire html body*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Element selector that adds padding to the header and a different background color and a specific font to the text*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,11 +17,15 @@ header {
     color: #ffffff;
 }
 
+/* Element selector that is editing the h1's inside the header by
+giving inline-block style so they are side by side and making the font
+size bigger*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Element selector for the nav bar and adding some margin and padding to it
+so it isn't pushed up to the edge of the screen*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -27,22 +33,25 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*Element selector accessing the anchor tags in html and setting their style to inline-block
+and adding some space between each text*/
 nav a {
     display: inline-block;
     margin-left: 25px;
     color: #ffffff;
     text-decoration: none;
 }
-
+/*Element selector changing size of font for all p elements*/
 p {
     font-size: 16px;
 }
-
+/*Class Selector to make the seo a darker color than the rest of the Horiseon word*/
 .seo {
     color: #d9dcd6;
 }
-
+/* Class selector that sets the background image after the header to
+the image of the people in the meeting, centering the image and having it cover
+the screen*/
 .hero {
     height: 800px;
     width: 100%;
@@ -51,23 +60,49 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*Class selector any thing with the .float-left tag to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*Class selector any thing with the .float-right tag to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*Class selector that modifies anything within the class="content"
+to have a width of 75%, display inline-block(side by side) with a margin
+space of 20px */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Class and element selector targeting the class="content" and then finding
+all the div's inside the class and gives it a margin on the 
+bottom(spacing) some padding, setting a height for that section 
+and giving a different font style and background color*/
+.content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*Class and element selector targeting the class="content" and then finding
+all the img tags inside and sets a max height for them*/
+.content img {
+    max-height: 200px;
+}
+/*Class and element selector targeting the class="content" and then finding
+all the h2 tags inside and sets a margin bottom for them and a font size*/
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*Class selector that modifies anything within the class="benefits"
+to have a margin to away from the right side of the screen*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -78,66 +113,35 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*Class selector that will change text color and give a margin on the bottom
+of any element with class="benefits-header"*/
 .benefits-header {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Class selector that targets the h3 elements inside the benefits class
+and aligns the text to the center*/
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Class selector that targets the image elements inside the benefits class
+and sets a size to them with some margin around them and to be stacked
+on top of each other using the display: block*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-#search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*Element selector that will give some padding to our footer and center
+everything in the middle of the page*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*Element selector that will give font size to h2 elements inside the footer*/
 footer h2 {
     font-size: 20px;
 }

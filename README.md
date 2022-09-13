@@ -1,22 +1,18 @@
 # Horiseon-SEO-Code-Refactor
 
 ## Description
-- This is a mock-up site where I have gone through an optimized the HTML files and CSS files to make them look cleaner and used Semantic HTML elements to organize the file better and make it more readable to others.
+- This is a mock-up site created with HTML and CSS, where I have gone through an optimized the HTML files and CSS files to make them look cleaner and used Semantic HTML elements to organize the file better and make it more readable to others.
 - The webpage is giving basic information on how to make a website better optimized for search engines
 - As I went through this project, I was able to learn more about Semantic HTML Elements and how they need to be used and help organize our HTML file better. I was able to distinguish the difference between how the Class and ID elements work and the importance of the ``` alt ``` element within the ``` img ``` element. 
+- I was also able to learn more about the importance of CSS and how it is executed from the top to bottom of each scope.
 
 ## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+The webpage is giving basic information on how to make a website better optimized for search engines
 
 ## License
 

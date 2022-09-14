@@ -82,7 +82,7 @@ space of 20px */
 all the div's inside the class and gives it a margin on the 
 bottom(spacing) some padding, setting a height for that section 
 and giving a different font style and background color*/
-.content div {
+.content section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;

@@ -1,3 +1,4 @@
+/*Universal selector targets everything and is adding 0 padding and margin 0 to the file.*/
 * {
     box-sizing: border-box;
     padding: 0;
